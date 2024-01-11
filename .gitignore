@@ -1,0 +1,6 @@
+# VSCode
+*.code-workspace
+
+# python
+*.env
+*.venv
