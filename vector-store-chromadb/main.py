@@ -8,7 +8,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 
 load_dotenv()
-file_name = 'state-of-the-union.txt'
+file_name = 'state-of-the-union-working.txt'
 
 # Load the document, split it into chunks, embed each chunk and load it into the vector store.
 raw_documents = TextLoader(file_name).load()
